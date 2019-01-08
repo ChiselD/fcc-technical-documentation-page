@@ -3,19 +3,18 @@ body {
 }
 
 nav {
-
-}
-
-nav ul {
-	list-style-type: none;
 	height: 100%;
 	position: fixed;
 	margin: 0;
 	padding: 0;
 	width: 15%;
-	background-color: blue;
+	background-color: whitesmoke;
 	top: 0;
 	left: 0;
+}
+
+nav ul {
+	list-style-type: none;
 }
 
 nav li a {
