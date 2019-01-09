@@ -1,4 +1,4 @@
-This project is NOT yet functional, but you can preview it here:<br/>
+This project is FUNCTIONAL and you can preview it here:<br/>
 http://htmlpreview.github.io/?https://github.com/ChiselD/fcc-technical-documentation-page/blob/master/index.html
 
 User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
