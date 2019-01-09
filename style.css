@@ -5,7 +5,7 @@ body {
 
 nav {
 	height: 100%;
-	width: 9rem;
+	width: 12rem;
 	position: fixed;
 	margin: 0;
 	padding: 0;
@@ -18,12 +18,22 @@ nav ul {
 	list-style-type: none;
 }
 
-nav li a {
+nav li {
 	display: block;
+	margin: 4px 0;
+}
+
+section {
+	margin-bottom: 60px;
+	margin-right: 40px;
 }
 
 #main-doc {
 	margin-left: 14rem;
+}
+
+header {
+	font-weight: bold;
 }
 
 
@@ -38,6 +48,7 @@ nav li a {
 	}
 	nav li {
 		display: inline-block;
+		margin: 0 10px;
 	}
 	#main-doc {
 		margin-top: 90px;
