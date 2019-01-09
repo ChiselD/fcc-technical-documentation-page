@@ -1,19 +1,13 @@
-@media (max-width: 800px) {
-	body {
-		background-color: blue;
-	}
-}
-
 body {
 	background-color: lightblue;
 }
 
 nav {
 	height: 100%;
+	width: 15%;
 	position: fixed;
 	margin: 0;
 	padding: 0;
-	width: 15%;
 	background-color: whitesmoke;
 	top: 0;
 	left: 0;
@@ -29,4 +23,22 @@ nav li a {
 
 #main-doc {
 	margin-left: 20%;
+}
+
+@media (max-width: 800px) {
+	nav {
+		height: 10%;
+		width: 100%;
+		right: 0;
+	}
+	nav ul {
+		text-align: center;
+	}
+	nav li {
+		display: inline-block;
+	}
+	#main-doc {
+		margin-top: 15%;
+		margin-left: 10%;
+	}
 }
