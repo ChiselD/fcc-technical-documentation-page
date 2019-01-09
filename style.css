@@ -66,3 +66,9 @@ code {
 		margin-left: 4rem;
 	}
 }
+
+@media (max-width: 518px) {
+	nav {
+		height: 9rem;
+	}
+}
